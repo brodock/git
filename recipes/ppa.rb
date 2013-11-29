@@ -4,6 +4,7 @@ apt_repository 'git' do
     components   ['main']
     keyserver    'keyserver.ubuntu.com'
     key          'E1DF1F24'
+    notifies :run, 'execute[apt-get update]', :immediately
 end
 
 package "git"
