@@ -73,6 +73,10 @@ Sets up a git daemon to provide a server.
 
 Installs git from source.
 
+## ppa
+
+Installs git from ppa repository (Ubuntu only)
+
 ## windows
 
 Installs git client on Windows
